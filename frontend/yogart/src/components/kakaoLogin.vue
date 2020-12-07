@@ -15,7 +15,7 @@ export default {
         }
     },
     created() {
-        Kakao.init('688de69414ec5331cee58badb1cad1ea');
+        Kakao.init('#####################################');
     },
     mounted() {
         document.addEventListener("DOMContentLoaded", function() {
