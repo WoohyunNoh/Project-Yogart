@@ -8,7 +8,7 @@
 <script>
 import axios from'axios'
 
-const naverClientId = '4eWVX86Cci4TFZzNvA3b'
+const naverClientId = '####################'
 
 export default {
     name:'naverLogin',
@@ -49,7 +49,7 @@ export default {
 						return;
                     }
                     let accessToken = String(naverLogin.accessToken.accessToken);
-                    axios.post(`http://i3d202.p.ssafy.io:8000/api/users/naverLogin`, 
+                    axios.post(`http://######.#.#####.##:####/api/users/naverLogin`, 
                     {
                         accessToken: accessToken
                     })
